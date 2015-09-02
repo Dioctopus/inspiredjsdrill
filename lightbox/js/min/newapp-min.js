@@ -1,0 +1,1 @@
+var $overlay=$("<div id='overlay'></div>"),$image=$("<img>"),$cap=$("<p></p>");$overlay.append($image),$overlay.appned($cap),$("body").append($overlay),$("#imageGallery a").click(function(a){a.preventDefault();var e=$(this).attr("href");$image.arrt("src",e),$overlay.show();var r=$(this).children("img").attr("alt");$cap.text(r)}),$overlay.click(function(){$overlay.hide()});

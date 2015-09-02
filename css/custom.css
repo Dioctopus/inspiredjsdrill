@@ -1,0 +1,83 @@
+/*
+* Atlanov Yevgen
+* Work and improvement drill
+* www.atlanov-web.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 10/07/2015
+*/
+
+
+/* Styles categories 
+_______________________
+
+
+1. Header
+2. Content
+3. Footer
+4. Buttons
+5. Forms
+________________________ */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    
+    height: 400px;
+    margin-top: 80px;
+
+} 
+
+.header h1 {
+    color: #115FAB;
+}
+.header span {
+    color: #115FAB;
+}
+.links {
+
+} 
+.links li {
+  
+   
+    padding: 30px;
+    display: inline-block;
+}
+
+  
+    .links i {
+    font-size: 70px;
+}
+
+.links i:hover {
+    color: #115FAB;
+}
+
+
+.projects {
+    height: 740px;
+    background-color: #115FAB;
+    color: #fff;
+
+} 
+.projects h3 {
+    margin-top: 50px;
+    color: #fff;
+   
+} 
+
+.projects a {
+   font-size: 20px;
+    color: #fff;
+   
+} 
+
+.project li {
+    margin-bottom: 20px;
+}
+
+
+
